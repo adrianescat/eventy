@@ -16,7 +16,11 @@
   "author": "Adrián Escat.",
   "license": "ISC",
   "dependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
     "body-parser": "^1.15.0",
+    "browserify": "^13.0.0",
     "compression": "^1.6.1",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^1.1.0",
@@ -24,11 +28,17 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "express-session": "^1.13.0",
+    "gulp": "^3.9.1",
+    "jquery": "^2.2.3",
     "method-override": "^2.3.5",
     "mongoose": "^4.4.12",
     "morgan": "^1.7.0",
     "nodemon": "^1.9.1",
     "passport": "^0.3.2",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }
